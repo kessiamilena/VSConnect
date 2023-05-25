@@ -244,6 +244,7 @@ main li {
     color: var(--branco);
     font-family: var(--fonte2);
     display: flex;
+    flex-direction: column;
 }
 
 .banner_conteudo_ft {
@@ -252,25 +253,100 @@ main li {
     box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     border-radius: 100px;
-    text-align: center;
-    padding: 50px;
-    width: 50%;
-    height: 400px;
+    width: 1064px;
+    height: 409px;
     margin: 0 auto;
-    align-items: center;
     display: flex;
+    justify-content: center;
     position: relative;
-    top: -50px;
+    top: -40px;
+    padding-left: 40px;
 }
 
 .saiba_mais {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.saiba_mais p {
+    text-align: left;
+    width: 550px;
+    font-size: 32px;
+    font-family: var(--fonte2);
+    font-weight: 500;
+    margin-left: 0;
 }
 
 .banner_conteudo_ft img {
-    width: 200px;
-    height: 300px; 
+    width: 353px;
+    height: 429px; 
     position: relative;
     top: -80px;
+}
+
+.btn_saiba_mais {
+    width: 280px;
+    height: 64px;
+    background-color: var(--branco);
+    color: var(--azulC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    border-radius: 30%;
+}
+
+.conteudo_footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 62px;
+    align-items: center;
+}
+
+.conteudo_footer span {
+    font-family: var(--fonte1);
+    font-size: 30px;
+
+}
+
+.conteudo_footer ul li {
+    font-size: 20px;
+    font-family: var(--fonte2);
+}
+
+.paginas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.paginas span {
+    margin: 25px 0;
+}
+
+.paginas ul {
+    margin: 0 20px;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos p {
+    font-family: var(--fonte2);
+    font-size: 22px;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 269px;
+    margin: 25px 0;
+}
+
+.redes_sociais img {
+    width: 55px;
+    height: 55px;
 }
