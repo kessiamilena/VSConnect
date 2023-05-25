@@ -237,3 +237,40 @@ main li {
     top: -30px;
     width: 120px;
 }
+
+.banner_footer {
+    background-image: url('../img/background_footer.png');
+    height: calc(100vh - 80px);
+    color: var(--branco);
+    font-family: var(--fonte2);
+    display: flex;
+}
+
+.banner_conteudo_ft {
+    background: linear-gradient(114.61deg, rgba(255, 255, 255, 0.052) 1.08%, rgba(255, 255, 255, 0.117) 99.26%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 100px;
+    text-align: center;
+    padding: 50px;
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: -50px;
+}
+
+.saiba_mais {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_conteudo_ft img {
+    width: 200px;
+    height: 300px; 
+    position: relative;
+    top: -80px;
+}
